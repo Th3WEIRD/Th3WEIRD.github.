@@ -2,17 +2,16 @@ body{
     margin: auto;
     color: #fee06c;
     background-color: #000713;
-    background-image: url("tree.jpg");
     text-transform: uppercase;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #subheading{
-    color: #fee06c;
+    color: #000713;
     text-align: center;
     font-size: xx-large;
-    background-color: #000713;
+    background-color: #fee06c;
     text-transform: uppercase;
 
 }
@@ -30,7 +29,7 @@ body{
     height: 100%;
     width: 30%;
     padding:50px;
-    background-color: #bebebe
+    background-color: #edf7f6;
     
 
 }
