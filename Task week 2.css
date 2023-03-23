@@ -1,0 +1,71 @@
+body{
+    margin: auto;
+    color: #fee06c;
+    background-color: #000713;
+    background-image: url("tree.jpg");
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#subheading{
+    color: #fee06c;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #000713;
+    text-transform: uppercase;
+
+}
+
+#section1{
+    margin-inline: auto;
+    height: 100%;
+    width: 30%;
+    padding:20px;
+
+}
+
+#table{
+    margin-inline: auto;
+    height: 100%;
+    width: 30%;
+    padding:50px;
+    background-color: #fee06c transparent;
+    
+
+}
+
+
+p{
+    background-color: #000713;
+    font-weight: 400;
+}
+
+#name{
+    color: #fee06c;
+    background-color: #000713;
+}
+
+#Email{
+    color: #fee06c;
+    background-color: #000713;
+}
+
+#Password{
+    color: #fee06c;
+    background-color: #000713;
+}
+#Gender{
+    color: #fee06c;
+    background-color: #000713;
+}
+
+#Phone{
+    color: #fee06c;
+    background-color: #000713
+}
+
+#submit{
+    color: #fee06c;
+    background-color: #000713;
+}

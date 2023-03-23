@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Week 1 & 2 Task</title>
+    <link rel="stylesheet" href="Task week 2.css"> </link>
+    
+    </head>
+
+    
+    <body>
+         <div id="section1">
+        <form id="Biodata" onsubmit="return validateForm()">
+            
+            <FIeldset>
+            <table id="table">
+                <h1 id="subheading">  Biodata Form </h1>
+                <tr>
+                    <td>
+                      <p>Name:</p> 
+                    </td>
+                    <td>
+                        <input type="text" placeholder ="Name" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <p>Email:</p> 
+                    </td>
+                    <td>
+                        <input type="email" placeholder="Email" name="mail" id="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Gender:</p>
+                    </td>
+                    <td>
+                        <select id="Gender">
+                            <option value="Gender"> Select Gender</option>
+                            <option value="Woman"> Woman</option>
+                            <option value="Man"> Man</option>
+                            <option value="Transgender"> Transgender
+                            <option value="Non-binary"> Non-binary</option>
+                            <option value="Prefer not to respond"> Prefer not to respond</option>
+                            </option>
+                            <tr>
+                                <td>
+                                    <p>Password:</p>
+                                </td>
+                                <td>
+                                    <input type="password" placeholder="Password" name="Password" id="Password">
+                                </td>
+                            </tr>
+                            <td>
+                                <p>Phone Number:</p>
+                            </td>
+                            <td>
+                                <input type="tel" placeholder="Phone no" name="Phone" id="Phone">
+                            </td>
+                            <tr>
+                                <td>
+                                    <input type="submit" value="Submit" id="submit">
+                                </td>
+                            </tr>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </FIeldset>
+        </form>
+
+        <script>
+            function validateForm() {
+                // Get form inputs
+                var name = document.forms["Biodata"]["name"].value;
+                var email = document.forms["Biodata"]["Email"].value;
+                var phone = document.forms["Biodata"]["Phone"].value;
+                var gender = document.forms["Biodata"]["Gender"].value;
+                var password = document.forms["Biodata"]["Password"].value;
+    
+                // Check if any input fields are empty
+                if (name == "" || email == "" || phone == "" || gender == "" || password == "") {
+                    alert("Please fill out all fields.");
+                    return false;
+                }
+    
+                // Show success message and prevent form from submitting
+                alert("Form submitted successfully!");
+                return false;
+            }
+        </script>
+    </body>
+    </html>
+    
+</html>
